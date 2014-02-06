@@ -1,0 +1,10 @@
+Para que git ignore un archivo al momento de hacer un add * 
+Se necesita que en el archivo .gitignore, contenga el nombre del archivo con 
+extension que no se quiere agregar al stage, se puede hacer para un archivo
+en especifico , por ejemplo : ignora.txt, o para todos los archivos 
+con cierta extension por ejemplo : *.c , que haria que los archivos
+con extension c no sean agregados al stage
+al momento de hacer el add *
+cada linea del archivo representaria una regla diferente. 
+Dependiendo que es lo que se quiera realizar seria la linea o lineas del 
+archivo
